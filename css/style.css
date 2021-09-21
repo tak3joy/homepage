@@ -1,0 +1,23 @@
+body{
+background-color: #202020;
+}
+
+.page-content{
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*
+  The grid itself needs only 4 CSS declarations:
+*/
+
+.main-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  
+  .main-grid img {
+    width: 100%;
+    margin: 0 5px;
+  }
